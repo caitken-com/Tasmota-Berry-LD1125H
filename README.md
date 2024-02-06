@@ -27,3 +27,13 @@ Set sensitivity levels of the mmWave sensor
 ```
 - `set` {string} Either: `mth1`, `mth2`, `mth3`, or `rmax`.
 - `value` {float} Value to set.
+
+## Published topics to subscribe to
+
+### Occupancy detected
+
+`tele/%id%/OCC` Payload is {boolean} 
+
+ ### Movement detected
+
+ `tele/%id%/MOV` Payload is {boolean} 
